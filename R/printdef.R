@@ -1,6 +1,7 @@
 library('ggplot2')
-
-
-printdef<-function(){
-  print("test")
+#' hello is a test function
+#' @param name
+#' @export hello.Rd
+hello <- function(name) {
+  print(paste("Hi",name))
 }

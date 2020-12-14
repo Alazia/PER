@@ -1,4 +1,3 @@
-library('ggplot2')
 #' hello is a test function
 #' @title hello
 #' @param name string
